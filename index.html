@@ -5,82 +5,352 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Politique de confidentialité — Vexi World</title>
 <style>
-  :root { --accent:#476AF5; --texte:#1A1D21; --gris:#5b636c; --bord:#e7e9ee; --fond:#ffffff; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:#f5f6f9; color:var(--texte);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.6; }
-  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; background:var(--fond);
-    min-height:100vh; }
-  h1 { font-size:28px; margin:0 0 4px; }
-  h2 { font-size:19px; margin:32px 0 8px; }
-  .chapo { color:var(--gris); font-size:14px; margin:0 0 8px; }
-  .maj { color:var(--gris); font-size:13px; margin:0 0 24px; }
-  p, li { font-size:15px; }
-  a { color:var(--accent); }
-  ul { padding-left:20px; }
-  footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--bord);
-    color:var(--gris); font-size:13px; }
+:root { --accent:#476AF5; --texte:#1A1D21; --gris:#5b636c; --bord:#e7e9ee; --fond:#ffffff; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f5f6f9; color:var(--texte);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+line-height:1.6; }
+.wrap { max-width:760px; margin:0 auto; padding:32px 20px 64px; background:var(--fond);
+min-height:100vh; }
+h1 { font-size:28px; margin:0 0 4px; }
+h2 { font-size:19px; margin:32px 0 8px; }
+.chapo { color:var(--gris); font-size:14px; margin:0 0 8px; }
+.maj { color:var(--gris); font-size:13px; margin:0 0 24px; }
+p, li { font-size:15px; }
+a { color:var(--accent); }
+ul { padding-left:20px; }
+footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--bord);
+color:var(--gris); font-size:13px; }
+.langues { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:24px; }
+.langues button { border:1.5px solid var(--bord); background:var(--fond); color:var(--texte);
+border-radius:999px; padding:6px 14px; font-size:13px; font-weight:600; cursor:pointer; }
+.langues button.actif { border-color:var(--accent); color:var(--accent); background:#eef1fd; }
+[data-lang] { display:none; }
+[data-lang].actif { display:block; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Politique de confidentialité — Vexi World</h1>
-  <p class="chapo">Éditeur : <strong>Jonathan Jegard</strong> · Contact : <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a></p>
-  <p class="maj">Dernière mise à jour : <strong>16 novembre 2026</strong></p>
 
-  <p>Vexi World (« l'application ») respecte ta vie privée. Cette politique explique quelles données l'application utilise, et comment. Vexi World est conçue pour un public de <strong>13 ans et plus</strong>.</p>
-
-  <h2>En résumé</h2>
-  <p>Vexi World <strong>ne collecte aucune donnée personnelle directement</strong> et <strong>ne nécessite aucun compte</strong>. Tes données de jeu restent sur ton appareil. L'application affiche des <strong>publicités</strong> et propose des <strong>achats intégrés</strong> ; ces services tiers (Google, les magasins d'applications) peuvent, eux, recevoir certaines données techniques, décrites ci-dessous.</p>
-
-  <h2>Données stockées sur ton appareil</h2>
-  <p>Tes scores, meilleurs records, série (streak), vies, réglages (thème, sons, langue…) sont enregistrés <strong>uniquement sur ton appareil</strong> (stockage local). Ils ne sont envoyés à aucun serveur de l'éditeur, qui n'y a pas accès. Sur Android, si la sauvegarde de ton compte Google est activée, Android peut en garder une copie chiffrée dans ton compte Google et la remettre si tu réinstalles le jeu : cette sauvegarde est gérée par Google, et tu peux la désactiver ou la supprimer dans les réglages de ton téléphone ou de ton compte Google. Sans cette sauvegarde, désinstaller l'application efface ces données.</p>
-
-  <h2>Publicité (Google AdMob)</h2>
-  <p>L'application affiche des publicités via <strong>Google AdMob</strong>. Pour cela, Google peut recevoir et traiter des informations techniques : identifiant publicitaire, adresse IP, type d'appareil, interactions avec les publicités.</p>
-  <ul>
-    <li><strong>Consentement</strong> : en Europe, un écran de consentement (Google UMP) te permet d'accepter ou de refuser les publicités personnalisées. Sur iOS, une demande de suivi (ATT) s'affiche également.</li>
-    <li>Si tu refuses, les publicités affichées sont <strong>non personnalisées</strong>.</li>
-    <li>Aucune publicité n'est affichée sur le <strong>Défi Quotidien</strong>.</li>
-    <li>Les <strong>séries bonus</strong> (Culture G, Océans et mers, Fleuves et rivières) sont gratuites et financées par la publicité : une publicité plein écran (AdMob) s'affiche au lancement de chaque série, jamais pendant une série. Avec « Vexi à vie », ces séries se lancent sans publicité.</li>
-    <li>Politique de confidentialité de Google : <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
-  </ul>
-
-  <h2>Achats intégrés</h2>
-  <p>Les achats (par ex. « Vexi à vie », packs de gels, thèmes) sont traités par l'<strong>App Store (Apple)</strong> ou <strong>Google Play</strong>. Pour vérifier et restaurer tes achats, l'application utilise le service <strong>RevenueCat</strong> : il reçoit un identifiant anonyme créé par l'application (sans nom ni e-mail) et l'historique de tes achats dans le jeu, transmis par le magasin d'applications. L'éditeur ne reçoit ni ne stocke tes informations de paiement ; elles sont gérées par le magasin d'applications selon sa propre politique.</p>
-  <p>Politique de confidentialité de RevenueCat : <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
-
-  <h2>Avis sur Google Play</h2>
-  <p>L'application peut te proposer de noter Vexi World sans quitter le jeu. Cette fenêtre est fournie et gérée par <strong>Google Play</strong> : ta note et ton commentaire vont directement à Google et sont publiés selon ses règles. L'éditeur ne voit pas qui a été invité à noter, et ne reçoit que les avis publics visibles par tous sur la fiche du jeu.</p>
-
-  <h2>Images de drapeaux (service tiers)</h2>
-  <p>Pour afficher les drapeaux, l'application charge des images depuis <strong>flagcdn.com</strong>. Comme toute requête internet, ce service tiers peut recevoir des informations techniques (dont ton adresse IP). L'éditeur ne contrôle pas ce service.</p>
-  <p>Le bouton « Voir sur OpenStreetMap » ouvre le site <strong>openstreetmap.org</strong> dans ton navigateur : ce site applique sa propre politique.</p>
-
-  <h2>Extraits Wikipédia (service tiers)</h2>
-  <p>Quand tu touches « En savoir plus » (séries bonus, fiches de révision des capitales), l'application charge un court extrait depuis <strong>wikipedia.org</strong>, le site de la Wikimedia Foundation, dans ta langue, et, dans les séries bonus, une photo d'illustration depuis <strong>Wikimedia Commons</strong> (upload.wikimedia.org), avec son auteur et sa licence indiqués dessous. Comme toute requête internet, Wikimedia peut recevoir des informations techniques, dont ton adresse IP. Aucune donnée de compte ni de jeu n'est envoyée, et rien n'est chargé tant que tu ne touches pas « En savoir plus ». Le bouton « Lire la page entière » ouvre la page dans un onglet intégré. Les extraits sont publiés sous licence CC BY-SA 4.0.</p>
-  <p>Politique de confidentialité de Wikimedia : <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">foundation.wikimedia.org/wiki/Policy:Privacy_policy</a>.</p>
-
-  <h2>Vérification de version</h2>
-  <p>Au lancement, l'application lit un petit fichier sur <strong>jonathanjegard.com</strong>, le site de l'éditeur, pour savoir si une mise à jour est disponible ou nécessaire. Ce fichier ne contient que des numéros de version. Le site est hébergé par <strong>Vercel</strong>. Comme toute requête internet, l'hébergeur du site reçoit des informations techniques, dont ton adresse IP. L'application n'envoie rien d'autre : ni identifiant, ni données de jeu. Sans internet, le jeu se lance normalement.</p>
-  <p>Avant une série bonus, l'application vérifie aussi la connexion par une requête vide vers un serveur de Google (la même qu'utilise Android), sans aucune donnée.</p>
-
-  <h2>Notifications</h2>
-  <p>Si tu les autorises, l'application peut envoyer une <strong>notification locale</strong> pour te rappeler le défi quotidien. Ces notifications sont générées par ton appareil, sans suivi. Tu peux les désactiver à tout moment dans les réglages du téléphone.</p>
-
-  <h2>Enfants</h2>
-  <p>Vexi World est destinée aux personnes de <strong>13 ans et plus</strong> et n'est pas dirigée vers les enfants de moins de 13 ans. L'application ne collecte pas sciemment de données personnelles auprès d'enfants.</p>
-
-  <h2>Tes droits</h2>
-  <p>Comme aucune donnée personnelle n'est stockée par l'éditeur, il n'y a rien à consulter, corriger ou supprimer de son côté ; tes données locales t'appartiennent et disparaissent à la désinstallation (sauf la sauvegarde Android de ton compte Google, décrite plus haut, que tu gères toi-même). Pour les données traitées par Google ou les magasins d'applications, réfère-toi à leurs politiques respectives. Pour toute question : <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a>.</p>
-
-  <h2>Modifications</h2>
-  <p>Cette politique pourra évoluer (nouvelle fonctionnalité, changement de service tiers…). La date en haut de page sera mise à jour en conséquence.</p>
-
-  <footer>
-    © 2026 Jonathan Jegard — Vexi World. Ce document est un modèle de départ et ne constitue pas un avis juridique.
-  </footer>
+<div class="langues" role="group" aria-label="Choix de la langue / Language">
+  <button type="button" data-choix="fr">Français</button>
+  <button type="button" data-choix="en">English</button>
+  <button type="button" data-choix="es">Español</button>
+  <button type="button" data-choix="de">Deutsch</button>
+  <button type="button" data-choix="it">Italiano</button>
 </div>
+
+<div data-lang="fr">
+<h1>Politique de confidentialité — Vexi World</h1>
+<p class="chapo">Éditeur : <strong>Jonathan Jegard</strong> · Contact : <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a></p>
+<p class="maj">Dernière mise à jour : <strong>16 novembre 2026</strong></p>
+
+<p>Vexi World (« l'application ») respecte ta vie privée. Cette politique explique quelles données l'application utilise, et comment. Vexi World est conçue pour un public de <strong>13 ans et plus</strong>.</p>
+
+<h2>En résumé</h2>
+<p>Vexi World <strong>ne collecte aucune donnée personnelle directement</strong> et <strong>ne nécessite aucun compte</strong>. Tes données de jeu restent sur ton appareil. L'application affiche des <strong>publicités</strong> et propose des <strong>achats intégrés</strong> ; ces services tiers (Google, les magasins d'applications) peuvent, eux, recevoir certaines données techniques, décrites ci-dessous.</p>
+
+<h2>Données stockées sur ton appareil</h2>
+<p>Tes scores, meilleurs records, série (streak), vies, réglages (thème, sons, langue…) sont enregistrés <strong>uniquement sur ton appareil</strong> (stockage local). Ils ne sont envoyés à aucun serveur de l'éditeur, qui n'y a pas accès. Sur Android, si la sauvegarde de ton compte Google est activée, Android peut en garder une copie chiffrée dans ton compte Google et la remettre si tu réinstalles le jeu : cette sauvegarde est gérée par Google, et tu peux la désactiver ou la supprimer dans les réglages de ton téléphone ou de ton compte Google. Sans cette sauvegarde, désinstaller l'application efface ces données.</p>
+
+<h2>Publicité (Google AdMob)</h2>
+<p>L'application affiche des publicités via <strong>Google AdMob</strong>. Pour cela, Google peut recevoir et traiter des informations techniques : identifiant publicitaire, adresse IP, type d'appareil, interactions avec les publicités.</p>
+<ul>
+<li><strong>Consentement</strong> : en Europe, un écran de consentement (Google UMP) te permet d'accepter ou de refuser les publicités personnalisées. Sur iOS, une demande de suivi (ATT) s'affiche également.</li>
+<li>Si tu refuses, les publicités affichées sont <strong>non personnalisées</strong>.</li>
+<li>Aucune publicité n'est affichée sur le <strong>Défi Quotidien</strong>.</li>
+<li>Les <strong>séries bonus</strong> (Culture G, Océans et mers, Fleuves et rivières) sont gratuites et financées par la publicité : une publicité plein écran (AdMob) s'affiche au lancement de chaque série, jamais pendant une série. Avec « Vexi à vie », ces séries se lancent sans publicité.</li>
+<li>Politique de confidentialité de Google : <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+</ul>
+
+<h2>Achats intégrés</h2>
+<p>Les achats (par ex. « Vexi à vie », packs de gels, thèmes) sont traités par l'<strong>App Store (Apple)</strong> ou <strong>Google Play</strong>. Pour vérifier et restaurer tes achats, l'application utilise le service <strong>RevenueCat</strong> : il reçoit un identifiant anonyme créé par l'application (sans nom ni e-mail) et l'historique de tes achats dans le jeu, transmis par le magasin d'applications. L'éditeur ne reçoit ni ne stocke tes informations de paiement ; elles sont gérées par le magasin d'applications selon sa propre politique.</p>
+<p>Politique de confidentialité de RevenueCat : <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+<h2>Avis sur Google Play</h2>
+<p>L'application peut te proposer de noter Vexi World sans quitter le jeu. Cette fenêtre est fournie et gérée par <strong>Google Play</strong> : ta note et ton commentaire vont directement à Google et sont publiés selon ses règles. L'éditeur ne voit pas qui a été invité à noter, et ne reçoit que les avis publics visibles par tous sur la fiche du jeu.</p>
+
+<h2>Images de drapeaux (service tiers)</h2>
+<p>Pour afficher les drapeaux, l'application charge des images depuis <strong>flagcdn.com</strong>. Comme toute requête internet, ce service tiers peut recevoir des informations techniques (dont ton adresse IP). L'éditeur ne contrôle pas ce service.</p>
+<p>Le bouton « Voir sur OpenStreetMap » ouvre le site <strong>openstreetmap.org</strong> dans ton navigateur : ce site applique sa propre politique.</p>
+
+<h2>Extraits Wikipédia (service tiers)</h2>
+<p>Quand tu touches « En savoir plus » (séries bonus, fiches de révision des capitales), l'application charge un court extrait depuis <strong>wikipedia.org</strong>, le site de la Wikimedia Foundation, dans ta langue, et, dans les séries bonus, une photo d'illustration depuis <strong>Wikimedia Commons</strong> (upload.wikimedia.org), avec son auteur et sa licence indiqués dessous. Comme toute requête internet, Wikimedia peut recevoir des informations techniques, dont ton adresse IP. Aucune donnée de compte ni de jeu n'est envoyée, et rien n'est chargé tant que tu ne touches pas « En savoir plus ». Le bouton « Lire la page entière » ouvre la page dans un onglet intégré. Les extraits sont publiés sous licence CC BY-SA 4.0.</p>
+<p>Politique de confidentialité de Wikimedia : <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">foundation.wikimedia.org/wiki/Policy:Privacy_policy</a>.</p>
+
+<h2>Vérification de version</h2>
+<p>Au lancement, l'application lit un petit fichier sur <strong>jonathanjegard.com</strong>, le site de l'éditeur, pour savoir si une mise à jour est disponible ou nécessaire. Ce fichier ne contient que des numéros de version. Le site est hébergé par <strong>Vercel</strong>. Comme toute requête internet, l'hébergeur du site reçoit des informations techniques, dont ton adresse IP. L'application n'envoie rien d'autre : ni identifiant, ni données de jeu. Sans internet, le jeu se lance normalement.</p>
+<p>Avant une série bonus, l'application vérifie aussi la connexion par une requête vide vers un serveur de Google (la même qu'utilise Android), sans aucune donnée.</p>
+
+<h2>Notifications</h2>
+<p>Si tu les autorises, l'application peut envoyer une <strong>notification locale</strong> pour te rappeler le défi quotidien. Ces notifications sont générées par ton appareil, sans suivi. Tu peux les désactiver à tout moment dans les réglages du téléphone.</p>
+
+<h2>Enfants</h2>
+<p>Vexi World est destinée aux personnes de <strong>13 ans et plus</strong> et n'est pas dirigée vers les enfants de moins de 13 ans. L'application ne collecte pas sciemment de données personnelles auprès d'enfants.</p>
+
+<h2>Tes droits</h2>
+<p>Comme aucune donnée personnelle n'est stockée par l'éditeur, il n'y a rien à consulter, corriger ou supprimer de son côté ; tes données locales t'appartiennent et disparaissent à la désinstallation (sauf la sauvegarde Android de ton compte Google, décrite plus haut, que tu gères toi-même). Pour les données traitées par Google ou les magasins d'applications, réfère-toi à leurs politiques respectives. Pour toute question : <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a>.</p>
+
+<h2>Modifications</h2>
+<p>Cette politique pourra évoluer (nouvelle fonctionnalité, changement de service tiers…). La date en haut de page sera mise à jour en conséquence.</p>
+
+<footer>© 2026 Jonathan Jegard — Vexi World. Ce document est un modèle de départ et ne constitue pas un avis juridique.</footer>
+</div>
+
+<div data-lang="en">
+<h1>Privacy Policy — Vexi World</h1>
+<p class="chapo">Publisher: <strong>Jonathan Jegard</strong> · Contact: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a></p>
+<p class="maj">Last updated: <strong>November 16, 2026</strong></p>
+
+<p>Vexi World ("the app") respects your privacy. This policy explains what data the app uses, and how. Vexi World is designed for an audience of <strong>13 years and up</strong>.</p>
+
+<h2>In short</h2>
+<p>Vexi World <strong>does not collect any personal data directly</strong> and <strong>requires no account</strong>. Your game data stays on your device. The app displays <strong>ads</strong> and offers <strong>in-app purchases</strong>; these third-party services (Google, app stores) may receive certain technical data, described below.</p>
+
+<h2>Data stored on your device</h2>
+<p>Your scores, best records, streak, lives, and settings (theme, sounds, language…) are saved <strong>only on your device</strong> (local storage). They are never sent to any server of the publisher, who has no access to them. On Android, if backup to your Google account is turned on, Android may keep an encrypted copy in your Google account and restore it if you reinstall the game: this backup is managed by Google, and you can turn it off or delete it in your phone's or Google account's settings. Without this backup, uninstalling the app deletes this data.</p>
+
+<h2>Advertising (Google AdMob)</h2>
+<p>The app displays ads through <strong>Google AdMob</strong>. To do so, Google may receive and process technical information: advertising identifier, IP address, device type, ad interactions.</p>
+<ul>
+<li><strong>Consent</strong>: in Europe, a consent screen (Google UMP) lets you accept or refuse personalized ads. On iOS, a tracking request (ATT) is also shown.</li>
+<li>If you decline, the ads shown are <strong>non-personalized</strong>.</li>
+<li>No ads are shown on the <strong>Daily Challenge</strong>.</li>
+<li>The <strong>bonus series</strong> (Trivia, Oceans and seas, Rivers) are free and funded by advertising: a full-screen ad (AdMob) is shown when each series starts, never during a series. With "Vexi for life", these series start without ads.</li>
+<li>Google's privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+</ul>
+
+<h2>In-app purchases</h2>
+<p>Purchases (e.g. "Vexi for life", freeze packs, themes) are handled by the <strong>App Store (Apple)</strong> or <strong>Google Play</strong>. To verify and restore your purchases, the app uses the <strong>RevenueCat</strong> service: it receives an anonymous identifier created by the app (no name or email) and the history of your in-game purchases, passed on by the app store. The publisher never receives or stores your payment information; it is managed by the app store under its own policy.</p>
+<p>RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+<h2>Reviews on Google Play</h2>
+<p>The app may offer you to rate Vexi World without leaving the game. This window is provided and managed by <strong>Google Play</strong>: your rating and comment go directly to Google and are published under its rules. The publisher does not see who was invited to rate, and only receives the public reviews visible to everyone on the game's store page.</p>
+
+<h2>Flag images (third-party service)</h2>
+<p>To display flags, the app loads images from <strong>flagcdn.com</strong>. Like any internet request, this third-party service may receive technical information (including your IP address). The publisher does not control this service.</p>
+<p>The "Open in OpenStreetMap" button opens the <strong>openstreetmap.org</strong> website in your browser: this website applies its own policy.</p>
+
+<h2>Wikipedia extracts (third-party service)</h2>
+<p>When you tap "Learn more" (bonus series, capital city review cards), the app loads a short extract from <strong>wikipedia.org</strong>, the Wikimedia Foundation's website, in your language, and, in the bonus series, an illustration photo from <strong>Wikimedia Commons</strong> (upload.wikimedia.org), with its author and license shown below it. Like any internet request, Wikimedia may receive technical information, including your IP address. No account or game data is sent, and nothing is loaded until you tap "Learn more". The "Read the full page" button opens the page in an in-app tab. The extracts are published under the CC BY-SA 4.0 license.</p>
+<p>Wikimedia's privacy policy: <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">foundation.wikimedia.org/wiki/Policy:Privacy_policy</a>.</p>
+
+<h2>Version check</h2>
+<p>At launch, the app reads a small file on <strong>jonathanjegard.com</strong>, the publisher's website, to find out whether an update is available or required. This file only contains version numbers. The website is hosted by <strong>Vercel</strong>. Like any internet request, the website's host receives technical information, including your IP address. The app sends nothing else: no identifier, no game data. Without internet, the game starts normally.</p>
+<p>Before a bonus series, the app also checks the connection with an empty request to a Google server (the same one Android uses), with no data at all.</p>
+
+<h2>Notifications</h2>
+<p>If you allow them, the app may send a <strong>local notification</strong> to remind you of the daily challenge. These notifications are generated by your device, with no tracking involved. You can disable them at any time in your phone's settings.</p>
+
+<h2>Children</h2>
+<p>Vexi World is intended for people <strong>13 years and up</strong> and is not directed at children under 13. The app does not knowingly collect personal data from children.</p>
+
+<h2>Your rights</h2>
+<p>Since no personal data is stored by the publisher, there is nothing to access, correct, or delete on their end; your local data belongs to you and disappears when you uninstall the app (except for the Android backup in your Google account, described above, which you manage yourself). For data processed by Google or app stores, refer to their respective policies. For any question: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a>.</p>
+
+<h2>Changes</h2>
+<p>This policy may evolve (new feature, change of third-party service…). The date at the top of the page will be updated accordingly.</p>
+
+<footer>© 2026 Jonathan Jegard — Vexi World. This document is a starting template and does not constitute legal advice.</footer>
+</div>
+
+<div data-lang="es">
+<h1>Política de privacidad — Vexi World</h1>
+<p class="chapo">Editor: <strong>Jonathan Jegard</strong> · Contacto: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a></p>
+<p class="maj">Última actualización: <strong>16 de noviembre de 2026</strong></p>
+
+<p>Vexi World («la aplicación») respeta tu privacidad. Esta política explica qué datos utiliza la aplicación y cómo. Vexi World está pensada para un público de <strong>13 años en adelante</strong>.</p>
+
+<h2>En resumen</h2>
+<p>Vexi World <strong>no recopila ningún dato personal directamente</strong> y <strong>no requiere ninguna cuenta</strong>. Tus datos de juego permanecen en tu dispositivo. La aplicación muestra <strong>anuncios</strong> y ofrece <strong>compras integradas</strong>; estos servicios de terceros (Google, las tiendas de aplicaciones) pueden recibir ciertos datos técnicos, descritos a continuación.</p>
+
+<h2>Datos almacenados en tu dispositivo</h2>
+<p>Tus puntuaciones, mejores récords, racha, vidas y ajustes (tema, sonidos, idioma…) se guardan <strong>únicamente en tu dispositivo</strong> (almacenamiento local). No se envían a ningún servidor del editor, que no tiene acceso a ellos. En Android, si la copia de seguridad de tu cuenta de Google está activada, Android puede guardar una copia cifrada en tu cuenta de Google y restaurarla si reinstalas el juego: esta copia la gestiona Google, y puedes desactivarla o eliminarla en los ajustes de tu teléfono o de tu cuenta de Google. Sin esta copia, al desinstalar la aplicación se borran estos datos.</p>
+
+<h2>Publicidad (Google AdMob)</h2>
+<p>La aplicación muestra anuncios a través de <strong>Google AdMob</strong>. Para ello, Google puede recibir y procesar información técnica: identificador publicitario, dirección IP, tipo de dispositivo, interacciones con los anuncios.</p>
+<ul>
+<li><strong>Consentimiento</strong>: en Europa, una pantalla de consentimiento (Google UMP) te permite aceptar o rechazar los anuncios personalizados. En iOS, también se muestra una solicitud de seguimiento (ATT).</li>
+<li>Si rechazas, los anuncios mostrados son <strong>no personalizados</strong>.</li>
+<li>No se muestra ningún anuncio en el <strong>Reto Diario</strong>.</li>
+<li>Las <strong>series extra</strong> (Cultura general, Océanos y mares, Ríos) son gratuitas y se financian con publicidad: se muestra un anuncio a pantalla completa (AdMob) al empezar cada serie, nunca durante una serie. Con «Vexi de por vida», estas series empiezan sin anuncios.</li>
+<li>Política de privacidad de Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+</ul>
+
+<h2>Compras integradas</h2>
+<p>Las compras (por ejemplo, «Vexi de por vida», packs de congelaciones, temas) son gestionadas por la <strong>App Store (Apple)</strong> o <strong>Google Play</strong>. Para verificar y restaurar tus compras, la aplicación utiliza el servicio <strong>RevenueCat</strong>: recibe un identificador anónimo creado por la aplicación (sin nombre ni correo electrónico) y el historial de tus compras en el juego, transmitido por la tienda de aplicaciones. El editor no recibe ni almacena tu información de pago; esta es gestionada por la tienda de aplicaciones según su propia política.</p>
+<p>Política de privacidad de RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+<h2>Reseñas en Google Play</h2>
+<p>La aplicación puede proponerte valorar Vexi World sin salir del juego. Esta ventana la proporciona y gestiona <strong>Google Play</strong>: tu valoración y tu comentario van directamente a Google y se publican según sus normas. El editor no ve a quién se ha invitado a valorar y solo recibe las reseñas públicas, visibles para todos en la ficha del juego.</p>
+
+<h2>Imágenes de banderas (servicio de terceros)</h2>
+<p>Para mostrar las banderas, la aplicación carga imágenes desde <strong>flagcdn.com</strong>. Como cualquier solicitud de internet, este servicio de terceros puede recibir información técnica (incluida tu dirección IP). El editor no controla este servicio.</p>
+<p>El botón «Abrir en OpenStreetMap» abre el sitio <strong>openstreetmap.org</strong> en tu navegador: este sitio aplica su propia política.</p>
+
+<h2>Extractos de Wikipedia (servicio de terceros)</h2>
+<p>Cuando tocas «Saber más» (series extra, fichas de repaso de las capitales), la aplicación carga un breve extracto desde <strong>wikipedia.org</strong>, el sitio de la Fundación Wikimedia, en tu idioma, y, en las series extra, una foto de ilustración desde <strong>Wikimedia Commons</strong> (upload.wikimedia.org), con su autor y su licencia indicados debajo. Como cualquier solicitud de internet, Wikimedia puede recibir información técnica, incluida tu dirección IP. No se envía ningún dato de cuenta ni de juego, y no se carga nada hasta que tocas «Saber más». El botón «Leer la página completa» abre la página en una pestaña integrada. Los extractos se publican bajo la licencia CC BY-SA 4.0.</p>
+<p>Política de privacidad de Wikimedia: <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">foundation.wikimedia.org/wiki/Policy:Privacy_policy</a>.</p>
+
+<h2>Comprobación de versión</h2>
+<p>Al iniciarse, la aplicación lee un pequeño archivo en <strong>jonathanjegard.com</strong>, el sitio del editor, para saber si hay una actualización disponible o necesaria. Este archivo solo contiene números de versión. El sitio está alojado por <strong>Vercel</strong>. Como cualquier solicitud de internet, el proveedor de alojamiento recibe información técnica, incluida tu dirección IP. La aplicación no envía nada más: ni identificador ni datos de juego. Sin internet, el juego se inicia con normalidad.</p>
+<p>Antes de una serie extra, la aplicación también comprueba la conexión con una solicitud vacía a un servidor de Google (la misma que usa Android), sin ningún dato.</p>
+
+<h2>Notificaciones</h2>
+<p>Si las autorizas, la aplicación puede enviar una <strong>notificación local</strong> para recordarte el reto diario. Estas notificaciones son generadas por tu dispositivo, sin seguimiento. Puedes desactivarlas en cualquier momento desde los ajustes de tu teléfono.</p>
+
+<h2>Menores</h2>
+<p>Vexi World está destinada a personas de <strong>13 años en adelante</strong> y no está dirigida a menores de 13 años. La aplicación no recopila conscientemente datos personales de menores.</p>
+
+<h2>Tus derechos</h2>
+<p>Como el editor no almacena ningún dato personal, no hay nada que consultar, corregir o eliminar de su parte; tus datos locales te pertenecen y desaparecen al desinstalar la aplicación (salvo la copia de seguridad de Android en tu cuenta de Google, descrita más arriba, que gestionas tú). Para los datos procesados por Google o las tiendas de aplicaciones, consulta sus respectivas políticas. Para cualquier pregunta: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a>.</p>
+
+<h2>Modificaciones</h2>
+<p>Esta política podrá evolucionar (nueva función, cambio de servicio de terceros…). La fecha en la parte superior de la página se actualizará en consecuencia.</p>
+
+<footer>© 2026 Jonathan Jegard — Vexi World. Este documento es una plantilla de partida y no constituye asesoramiento legal.</footer>
+</div>
+
+<div data-lang="de">
+<h1>Datenschutzerklärung — Vexi World</h1>
+<p class="chapo">Herausgeber: <strong>Jonathan Jegard</strong> · Kontakt: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a></p>
+<p class="maj">Zuletzt aktualisiert: <strong>16. November 2026</strong></p>
+
+<p>Vexi World („die App“) respektiert deine Privatsphäre. Diese Erklärung beschreibt, welche Daten die App nutzt und wie. Vexi World richtet sich an ein Publikum ab <strong>13 Jahren</strong>.</p>
+
+<h2>Kurz gefasst</h2>
+<p>Vexi World <strong>sammelt keine personenbezogenen Daten direkt</strong> und <strong>erfordert kein Konto</strong>. Deine Spieldaten bleiben auf deinem Gerät. Die App zeigt <strong>Werbung</strong> an und bietet <strong>In-App-Käufe</strong> an; diese Drittanbieter-Dienste (Google, die App-Stores) können bestimmte technische Daten erhalten, die unten beschrieben sind.</p>
+
+<h2>Auf deinem Gerät gespeicherte Daten</h2>
+<p>Deine Punktzahlen, Bestleistungen, Serien (Streak), Leben und Einstellungen (Design, Sound, Sprache…) werden <strong>ausschließlich auf deinem Gerät</strong> gespeichert (lokaler Speicher). Sie werden an keinen Server des Herausgebers gesendet, und er hat keinen Zugriff darauf. Wenn auf Android die Sicherung in deinem Google-Konto aktiviert ist, kann Android eine verschlüsselte Kopie in deinem Google-Konto aufbewahren und sie wiederherstellen, wenn du das Spiel neu installierst: Diese Sicherung wird von Google verwaltet, und du kannst sie in den Einstellungen deines Telefons oder deines Google-Kontos deaktivieren oder löschen. Ohne diese Sicherung werden die Daten beim Deinstallieren der App gelöscht.</p>
+
+<h2>Werbung (Google AdMob)</h2>
+<p>Die App zeigt Werbung über <strong>Google AdMob</strong> an. Dabei kann Google technische Informationen empfangen und verarbeiten: Werbe-ID, IP-Adresse, Gerätetyp, Interaktionen mit Anzeigen.</p>
+<ul>
+<li><strong>Einwilligung</strong>: In Europa kannst du über einen Einwilligungsbildschirm (Google UMP) personalisierte Werbung akzeptieren oder ablehnen. Auf iOS wird zusätzlich eine Tracking-Abfrage (ATT) angezeigt.</li>
+<li>Lehnst du ab, werden <strong>nicht personalisierte</strong> Anzeigen angezeigt.</li>
+<li>Bei der <strong>täglichen Challenge</strong> wird keine Werbung angezeigt.</li>
+<li>Die <strong>Bonusserien</strong> (Allgemeinwissen, Ozeane und Meere, Flüsse) sind kostenlos und werden durch Werbung finanziert: Beim Start jeder Serie wird eine Vollbildanzeige (AdMob) gezeigt, nie während einer Serie. Mit „Vexi für immer“ starten diese Serien ohne Werbung.</li>
+<li>Datenschutzerklärung von Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+</ul>
+
+<h2>In-App-Käufe</h2>
+<p>Käufe (z. B. „Vexi für immer“, Freeze-Pakete, Designs) werden über den <strong>App Store (Apple)</strong> oder <strong>Google Play</strong> abgewickelt. Um deine Käufe zu prüfen und wiederherzustellen, nutzt die App den Dienst <strong>RevenueCat</strong>: Er erhält eine anonyme, von der App erzeugte Kennung (ohne Namen oder E-Mail-Adresse) und den Verlauf deiner Käufe im Spiel, den der App-Store übermittelt. Der Herausgeber erhält oder speichert deine Zahlungsdaten nicht; diese werden vom jeweiligen App-Store gemäß dessen eigener Richtlinie verwaltet.</p>
+<p>Datenschutzerklärung von RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+<h2>Bewertungen bei Google Play</h2>
+<p>Die App kann dir anbieten, Vexi World zu bewerten, ohne das Spiel zu verlassen. Dieses Fenster wird von <strong>Google Play</strong> bereitgestellt und verwaltet: Deine Bewertung und dein Kommentar gehen direkt an Google und werden nach dessen Regeln veröffentlicht. Der Herausgeber sieht nicht, wer zur Bewertung eingeladen wurde, und erhält nur die öffentlichen Bewertungen, die alle auf der Store-Seite des Spiels sehen können.</p>
+
+<h2>Flaggenbilder (Drittanbieter-Dienst)</h2>
+<p>Zur Anzeige der Flaggen lädt die App Bilder von <strong>flagcdn.com</strong>. Wie bei jeder Internetanfrage kann dieser Drittanbieter-Dienst technische Informationen erhalten (einschließlich deiner IP-Adresse). Der Herausgeber hat keine Kontrolle über diesen Dienst.</p>
+<p>Die Schaltfläche „In OpenStreetMap öffnen“ öffnet die Website <strong>openstreetmap.org</strong> in deinem Browser: Für diese Website gilt ihre eigene Richtlinie.</p>
+
+<h2>Wikipedia-Auszüge (Drittanbieter-Dienst)</h2>
+<p>Wenn du auf „Mehr erfahren“ tippst (Bonusserien, Lernkarten der Hauptstädte), lädt die App einen kurzen Auszug von <strong>wikipedia.org</strong>, der Website der Wikimedia Foundation, in deiner Sprache und in den Bonusserien ein Illustrationsfoto von <strong>Wikimedia Commons</strong> (upload.wikimedia.org), mit Urheber und Lizenz darunter. Wie bei jeder Internetanfrage kann Wikimedia technische Informationen erhalten, einschließlich deiner IP-Adresse. Es werden keine Konto- oder Spieldaten gesendet, und nichts wird geladen, bevor du auf „Mehr erfahren“ tippst. Die Schaltfläche „Ganze Seite lesen“ öffnet die Seite in einem Tab innerhalb der App. Die Auszüge werden unter der Lizenz CC BY-SA 4.0 veröffentlicht.</p>
+<p>Datenschutzerklärung von Wikimedia: <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">foundation.wikimedia.org/wiki/Policy:Privacy_policy</a>.</p>
+
+<h2>Versionsprüfung</h2>
+<p>Beim Start liest die App eine kleine Datei auf <strong>jonathanjegard.com</strong>, der Website des Herausgebers, um zu erfahren, ob ein Update verfügbar oder erforderlich ist. Diese Datei enthält nur Versionsnummern. Die Website wird von <strong>Vercel</strong> gehostet. Wie bei jeder Internetanfrage erhält der Hoster technische Informationen, einschließlich deiner IP-Adresse. Die App sendet sonst nichts: keine Kennung, keine Spieldaten. Ohne Internet startet das Spiel ganz normal.</p>
+<p>Vor einer Bonusserie prüft die App außerdem die Verbindung mit einer leeren Anfrage an einen Google-Server (dieselbe, die Android verwendet), ganz ohne Daten.</p>
+
+<h2>Benachrichtigungen</h2>
+<p>Sofern du sie zulässt, kann die App eine <strong>lokale Benachrichtigung</strong> senden, um dich an die tägliche Challenge zu erinnern. Diese Benachrichtigungen werden von deinem Gerät erzeugt, ohne Tracking. Du kannst sie jederzeit in den Einstellungen deines Telefons deaktivieren.</p>
+
+<h2>Kinder</h2>
+<p>Vexi World richtet sich an Personen ab <strong>13 Jahren</strong> und ist nicht an Kinder unter 13 Jahren gerichtet. Die App sammelt wissentlich keine personenbezogenen Daten von Kindern.</p>
+
+<h2>Deine Rechte</h2>
+<p>Da der Herausgeber keine personenbezogenen Daten speichert, gibt es seinerseits nichts einzusehen, zu berichtigen oder zu löschen; deine lokalen Daten gehören dir und werden beim Deinstallieren der App gelöscht (außer der oben beschriebenen Android-Sicherung in deinem Google-Konto, die du selbst verwaltest). Für von Google oder den App-Stores verarbeitete Daten gelten deren jeweilige Richtlinien. Bei Fragen: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a>.</p>
+
+<h2>Änderungen</h2>
+<p>Diese Erklärung kann sich weiterentwickeln (neue Funktion, Wechsel eines Drittanbieter-Dienstes…). Das Datum oben auf der Seite wird entsprechend aktualisiert.</p>
+
+<footer>© 2026 Jonathan Jegard — Vexi World. Dieses Dokument ist eine Ausgangsvorlage und stellt keine Rechtsberatung dar.</footer>
+</div>
+
+<div data-lang="it">
+<h1>Informativa sulla privacy — Vexi World</h1>
+<p class="chapo">Editore: <strong>Jonathan Jegard</strong> · Contatto: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a></p>
+<p class="maj">Ultimo aggiornamento: <strong>16 novembre 2026</strong></p>
+
+<p>Vexi World («l'applicazione») rispetta la tua privacy. Questa informativa spiega quali dati utilizza l'applicazione e come. Vexi World è pensata per un pubblico dai <strong>13 anni in su</strong>.</p>
+
+<h2>In breve</h2>
+<p>Vexi World <strong>non raccoglie alcun dato personale direttamente</strong> e <strong>non richiede alcun account</strong>. I tuoi dati di gioco restano sul tuo dispositivo. L'applicazione mostra <strong>pubblicità</strong> e propone <strong>acquisti in-app</strong>; questi servizi di terze parti (Google, gli app store) possono ricevere alcuni dati tecnici, descritti di seguito.</p>
+
+<h2>Dati memorizzati sul tuo dispositivo</h2>
+<p>I tuoi punteggi, i record migliori, la serie (streak), le vite e le impostazioni (tema, suoni, lingua…) sono salvati <strong>esclusivamente sul tuo dispositivo</strong> (memoria locale). Non vengono inviati ad alcun server dell'editore, che non vi ha accesso. Su Android, se il backup del tuo account Google è attivo, Android può conservarne una copia crittografata nel tuo account Google e ripristinarla se reinstalli il gioco: questo backup è gestito da Google, e puoi disattivarlo o eliminarlo dalle impostazioni del telefono o del tuo account Google. Senza questo backup, disinstallando l'applicazione questi dati vengono cancellati.</p>
+
+<h2>Pubblicità (Google AdMob)</h2>
+<p>L'applicazione mostra annunci tramite <strong>Google AdMob</strong>. A tal fine, Google può ricevere ed elaborare informazioni tecniche: identificativo pubblicitario, indirizzo IP, tipo di dispositivo, interazioni con gli annunci.</p>
+<ul>
+<li><strong>Consenso</strong>: in Europa, una schermata di consenso (Google UMP) ti permette di accettare o rifiutare gli annunci personalizzati. Su iOS viene mostrata anche una richiesta di tracciamento (ATT).</li>
+<li>Se rifiuti, gli annunci mostrati sono <strong>non personalizzati</strong>.</li>
+<li>Nessun annuncio viene mostrato nella <strong>Sfida Giornaliera</strong>.</li>
+<li>Le <strong>serie bonus</strong> (Cultura generale, Oceani e mari, Fiumi) sono gratuite e finanziate dalla pubblicità: un annuncio a schermo intero (AdMob) viene mostrato all'avvio di ogni serie, mai durante una serie. Con «Vexi a vita», queste serie partono senza pubblicità.</li>
+<li>Informativa sulla privacy di Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+</ul>
+
+<h2>Acquisti in-app</h2>
+<p>Gli acquisti (ad es. «Vexi a vita», pacchetti di freeze, temi) sono gestiti dall'<strong>App Store (Apple)</strong> o da <strong>Google Play</strong>. Per verificare e ripristinare i tuoi acquisti, l'applicazione utilizza il servizio <strong>RevenueCat</strong>: riceve un identificativo anonimo creato dall'applicazione (senza nome né e-mail) e la cronologia dei tuoi acquisti nel gioco, trasmessa dallo store. L'editore non riceve né memorizza le tue informazioni di pagamento; queste sono gestite dallo store secondo la propria politica.</p>
+<p>Informativa sulla privacy di RevenueCat: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</p>
+
+<h2>Recensioni su Google Play</h2>
+<p>L'applicazione può proporti di valutare Vexi World senza uscire dal gioco. Questa finestra è fornita e gestita da <strong>Google Play</strong>: la tua valutazione e il tuo commento vanno direttamente a Google e sono pubblicati secondo le sue regole. L'editore non vede chi è stato invitato a valutare e riceve solo le recensioni pubbliche, visibili a tutti nella pagina del gioco sullo store.</p>
+
+<h2>Immagini delle bandiere (servizio di terze parti)</h2>
+<p>Per mostrare le bandiere, l'applicazione carica immagini da <strong>flagcdn.com</strong>. Come qualsiasi richiesta internet, questo servizio di terze parti può ricevere informazioni tecniche (incluso il tuo indirizzo IP). L'editore non controlla questo servizio.</p>
+<p>Il pulsante «Apri in OpenStreetMap» apre il sito <strong>openstreetmap.org</strong> nel tuo browser: questo sito applica la propria politica.</p>
+
+<h2>Estratti di Wikipedia (servizio di terze parti)</h2>
+<p>Quando tocchi «Scopri di più» (serie bonus, schede di ripasso delle capitali), l'applicazione carica un breve estratto da <strong>wikipedia.org</strong>, il sito della Wikimedia Foundation, nella tua lingua e, nelle serie bonus, una foto illustrativa da <strong>Wikimedia Commons</strong> (upload.wikimedia.org), con autore e licenza indicati sotto. Come qualsiasi richiesta internet, Wikimedia può ricevere informazioni tecniche, incluso il tuo indirizzo IP. Non viene inviato alcun dato di account o di gioco, e nulla viene caricato finché non tocchi «Scopri di più». Il pulsante «Leggi la pagina intera» apre la pagina in una scheda integrata. Gli estratti sono pubblicati con licenza CC BY-SA 4.0.</p>
+<p>Informativa sulla privacy di Wikimedia: <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">foundation.wikimedia.org/wiki/Policy:Privacy_policy</a>.</p>
+
+<h2>Controllo della versione</h2>
+<p>All'avvio, l'applicazione legge un piccolo file su <strong>jonathanjegard.com</strong>, il sito dell'editore, per sapere se un aggiornamento è disponibile o necessario. Questo file contiene solo numeri di versione. Il sito è ospitato da <strong>Vercel</strong>. Come qualsiasi richiesta internet, l'hosting del sito riceve informazioni tecniche, incluso il tuo indirizzo IP. L'applicazione non invia nient'altro: né identificativi né dati di gioco. Senza internet, il gioco si avvia normalmente.</p>
+<p>Prima di una serie bonus, l'applicazione verifica anche la connessione con una richiesta vuota a un server di Google (la stessa usata da Android), senza alcun dato.</p>
+
+<h2>Notifiche</h2>
+<p>Se le autorizzi, l'applicazione può inviare una <strong>notifica locale</strong> per ricordarti la sfida giornaliera. Queste notifiche sono generate dal tuo dispositivo, senza tracciamento. Puoi disattivarle in qualsiasi momento dalle impostazioni del telefono.</p>
+
+<h2>Minori</h2>
+<p>Vexi World è destinata a persone dai <strong>13 anni in su</strong> e non è rivolta a minori di 13 anni. L'applicazione non raccoglie consapevolmente dati personali da minori.</p>
+
+<h2>I tuoi diritti</h2>
+<p>Poiché l'editore non memorizza alcun dato personale, non c'è nulla da consultare, correggere o eliminare da parte sua; i tuoi dati locali ti appartengono e scompaiono alla disinstallazione dell'applicazione (salvo il backup Android nel tuo account Google, descritto sopra, che gestisci tu). Per i dati trattati da Google o dagli app store, fai riferimento alle rispettive politiche. Per qualsiasi domanda: <a href="mailto:vexi.jeu@gmail.com">vexi.jeu@gmail.com</a>.</p>
+
+<h2>Modifiche</h2>
+<p>Questa informativa potrà evolversi (nuova funzionalità, cambio di servizio di terze parti…). La data in alto alla pagina sarà aggiornata di conseguenza.</p>
+
+<footer>© 2026 Jonathan Jegard — Vexi World. Questo documento è un modello di partenza e non costituisce una consulenza legale.</footer>
+</div>
+
+</div>
+
+<script>
+(function () {
+  var LANGUES = ['fr', 'en', 'es', 'de', 'it'];
+
+  function choisir(langue) {
+    LANGUES.forEach(function (l) {
+      var bloc = document.querySelector('[data-lang="' + l + '"]');
+      var bouton = document.querySelector('[data-choix="' + l + '"]');
+      if (bloc) bloc.classList.toggle('actif', l === langue);
+      if (bouton) bouton.classList.toggle('actif', l === langue);
+    });
+    document.documentElement.lang = langue;
+  }
+
+  // Langue par défaut : celle du navigateur si elle fait partie des 5 gérées, sinon français.
+  var navLangue = (navigator.language || 'fr').slice(0, 2).toLowerCase();
+  choisir(LANGUES.includes(navLangue) ? navLangue : 'fr');
+
+  LANGUES.forEach(function (l) {
+    var bouton = document.querySelector('[data-choix="' + l + '"]');
+    if (bouton) bouton.addEventListener('click', function () { choisir(l); });
+  });
+})();
+</script>
+
 </body>
 </html>
